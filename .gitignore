@@ -1,1 +1,2 @@
-/thapa-technical-REST-API/node_modules
+node_modules
+.env
