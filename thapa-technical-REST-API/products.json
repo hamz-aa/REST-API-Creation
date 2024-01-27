@@ -1,0 +1,35 @@
+[
+  {
+    "name": "iphone",
+    "price": 1540,
+    "feature": true,
+    "company": "apple"
+  },
+  {
+    "name": "s21",
+    "price": 1700,
+    "feature": true,
+    "company": "samsung"
+  },
+  {
+    "name": "L-942",
+    "price": 944,
+    "company": "dell"
+  },
+  {
+    "name": "mi-19",
+    "price": 1200,
+    "company": "mi"
+  },
+  {
+    "name": "iphone-se",
+    "price": 1100,
+    "company": "apple"
+  },
+  {
+    "name": "note-10",
+    "price": 1450,
+    "feature": true,
+    "company": "samsung"
+  }
+]
