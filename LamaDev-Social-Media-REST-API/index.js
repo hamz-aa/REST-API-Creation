@@ -4,6 +4,7 @@ import mongoose, { mongo } from "mongoose";
 import helmet from "helmet";
 import morgan from "morgan";
 import userRoute from "./routes/users.js";
+import authRoute from "./routes/auth.js";
 
 dotenv.config();
 
@@ -18,6 +19,7 @@ app.use(helmet());
 app.use(morgan("common"));
 
 app.use("/api/users", userRoute);
+app.use("/api/auth", authRoute);
 
 app.listen(PORT, () =>
   console.log(`Server Started at http://localhost:${PORT}`)
