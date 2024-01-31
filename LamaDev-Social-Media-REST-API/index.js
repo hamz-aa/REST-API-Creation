@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import mongoose, { mongo } from "mongoose";
+import mongoose from "mongoose";
 import helmet from "helmet";
 import morgan from "morgan";
 import userRoute from "./routes/users.js";
